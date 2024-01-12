@@ -1,0 +1,60 @@
+*{
+  font-family: 'Playfair Display', serif;
+}
+
+.gira-gira{
+  margin-top: 80px;
+  max-width: 50%;
+  max-height: 20%;
+  margin-bottom: 100px;
+}
+
+.gira-gira h2{
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+header{
+  padding: 12px 0;
+  background-color: #182C61;
+  color: #ecf0f1;
+}
+
+header h1, section h2{
+  font-weight: normal;
+}
+
+header nav li{
+  display: inline;
+  margin-left: 16px;
+  text-align: right;
+}
+
+header nav li a{
+  color: #ecf0f1;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.topo{
+  max-width: 1200px; /*passando desse tamanho ele fica centralizado na tela*/
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .topo{
+  display: flex;
+  align-items: center; /* centraliza-los na vertical*/
+  justify-content: space-between; /*deixa o espaço entre os termos iguais*/
+}
+
+#noticias{
+  margin-bottom: 50px;
+}
+
+footer{
+  background-color: #182C61;
+  color: #ecf0f1;
+  padding: 10px 0;
+  text-align: center;
+}

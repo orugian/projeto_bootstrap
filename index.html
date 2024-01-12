@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="lib/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+
+  <header>
+    <div class="topo">
+    <h1>ORUGIAN</h1>
+    <nav>
+        <ul>
+            <li>
+                <a href="#carousel-exemplo" title="Conteudo">Conteúdo</a>
+            </li>
+            <li>
+                <a href="#noticias" title="Noticias">Notícias</a>     
+            </li>
+        </ul>
+    </nav>
+    </div>
+</header>
+
+<div class="container gira-gira">
+  <h2>“Algumas pessoas gostariam que algo acontecesse. Algumas desejam que aconteça. E outras fazem acontecer.”</h2>
+  <div id="carousel-exemplo" class="carousel slide corousel-fade" data-bs-ride="carousel">
+    <diV class="carousel-inner">
+      <div data-bs-interval="4000" class="carousel-item active">
+        <img class="d-block w-100 " src="/lib/man-1837119_1280.jpg">
+        <div class="carousel-caption">
+          
+        </div>
+      </div>
+      <div data-bs-interval="4000" class="carousel-item">
+        <img class="d-block w-100 " src="/lib/people-2578102_1280.jpg">
+        <div class="carousel-caption">
+          
+        </div>
+      </div>
+      <div data-bs-interval="4000" class="carousel-item">
+        <img class="d-block w-100 " src="/lib/shoes-1011596_1280.jpg">
+        <div class="carousel-caption">
+          
+        </div>
+      </div>
+    </diV>
+    <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button"> <!--Botão para retornar as imagens no carousel-->
+      <spam class="carousel-control-prev-icon"></spam>
+    </button>
+    <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button"> <!--Botão de avançar imagem no slide-->
+      <spam class="carousel-control-next-icon"></spam>
+    </button>
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+      <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="noticias">
+  <h2 style=" margin-bottom: 50px;">Notícias</h2>
+  <div class="row">
+    <div class="col-4">
+      <article class="card">
+      
+        <img src="https://i0.wp.com/palestrasdesucesso.com.br/wp-content/uploads/2022/06/ronaldinho-gaucho-palestras.jpg?resize=510%2C331&ssl=1">
+        <div class="card-body text-bg-dark">
+          <h4 class="card-title">A magia do bruxo</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil itaque provident aperiam rerum? Quidem distinctio quis </p>
+          <a href="#" class="btn btn-light">Leia mais</a>
+        </div>
+        <footer class="card-footer text-bg-light">
+          Postado em <time>10/08/2024 as 19:00</time>
+        </footer>
+      </article>
+    </div>
+    <div class="col-4">
+      <div class="card text-bg-dark">
+        
+        <img src="https://terceirotempo.uol.com.br/imagens/57/70/w500_h140_qfl_fto_15770.webp">
+        <div class="card-body">
+          <h4 class="card-title">O Fenômeno</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis possimus quidem, dignissimos reprehenderit inventore, consequuntur tempore rem maxime unde accusamus veritatis ut quos earum labore ullam pariatur. Sed, illo aliquam </p>
+          <a href="#" class="btn btn-light">Leia mais</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card text-bg-dark">
+        <img src="https://trivela.com.br/wp-content/uploads/2020/05/zidane-1.jpg">
+        <div class="card-img-overlay"> <!--Texto se adequa ao tamanho da imagem-->
+          <h4 class="card-title">A Elegância de Zizou</h4>
+          
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis possimus quidem, dignissimos reprehenderit inventore, consequuntur tempore rem maxime unde accusamus veritatis ut quos earum labore ullam pariatur. Sed, illo aliquam </p>
+          <a href="#" class="btn btn-light">Leia mais</a>
+        </div>
+        <footer class="card-footer">
+          Postado em <time>10/01/2024 as 10:00</time>
+        </footer>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+      <p>
+          &copy; Orugian - Todos os direitos reservados - 2024
+      </p>
+  </div>
+</footer>
+
+  <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
